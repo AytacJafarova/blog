@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 220px 135px 113px 135px;
+    background: #FDF0E9;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .box1 {
+    width: 500px;
+}
+
+.blog .box1 h1 {
+    color: var(--text-dark-accent, #EF6D58);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.blog .box1 h2 {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+
+.blog .box2 {
+    margin-top: auto;
+}
+
+.blog .box2 .button a {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.about-us {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us img {
+    width: 370px;
+    height: 224px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    opacity: 0.3181;
+    background: #5C2000;
+}
+
+.about-us h1 {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 26px;
+}
+
+.about-us p {
+    width: 338px;
+    height: 68px;
+    flex-shrink: 0;
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+.about-us .nov-5 {
+    color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+.container .border {
+    width: 1170px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #F3D1BF;
+    margin-top: 67px;
+}
+
+.email {
+    display: flex;
+    margin-top: 60px;
+}
+
+.email .h1-box h1 {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+}
