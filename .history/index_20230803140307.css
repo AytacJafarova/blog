@@ -116,9 +116,9 @@
 }
 
 .container .border {
-    width: 100%;
+    width: 1170px;
     height: 1px;
-    border: none;
+    /* border: none; */
     background: #F3D1BF;
     margin-top: 67px;
 }

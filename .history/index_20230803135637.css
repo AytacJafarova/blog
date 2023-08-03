@@ -78,7 +78,6 @@
 }
 
 .about-us h1 {
-    margin-top: 26px;
     color: var(--text-dark, #391400);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Epilogue;
@@ -86,7 +85,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-   
+    margin-top: 26px;
 }
 
 .about-us p {
@@ -104,7 +103,6 @@
 }
 
 .about-us .nov-5 {
-    margin-top: 15px;
     color: var(--text-dark-gray, rgba(57, 20, 0, 0.64));
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Epilogue;
@@ -112,13 +110,28 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-
+    margin-top: 15px;
 }
 
 .container .border {
-    width: 100%;
+    width: 1170px;
     height: 1px;
-    border: none;
+    flex-shrink: 0;
     background: #F3D1BF;
     margin-top: 67px;
+}
+
+.email {
+    display: flex;
+    margin-top: 60px;
+}
+
+.email .h1-box h1 {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
 }

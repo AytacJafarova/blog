@@ -116,9 +116,23 @@
 }
 
 .container .border {
-    width: 100%;
+    width: 1170px;
     height: 1px;
-    border: none;
     background: #F3D1BF;
     margin-top: 67px;
+}
+
+.email {
+    display: flex;
+    margin-top: 60px;
+}
+
+.email .h1-box h1 {
+    color: var(--text-dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
 }
